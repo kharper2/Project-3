@@ -1,7 +1,7 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 51.250399331199496, lng: 22.56586883496531 },
-    zoom: 5,
+    zoom: 2,
   });
 
 var marker = new google.maps.Marker({
@@ -10,8 +10,10 @@ var marker = new google.maps.Marker({
   });
 
 var infowindow = new google.maps.InfoWindow({
-    content:"This is they city from which my family is from!"
+    content:"Flight from O'Hare to Warsaw! The marker shows Lublin, the city that my family is from!"
   });
+
+infowindow.open(map, marker);
 
 var flightPlanCoordinates = [
     { lat: 41.978611, lng: -87.904724 },
