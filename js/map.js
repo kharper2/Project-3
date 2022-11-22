@@ -14,7 +14,7 @@ var infowindow = new google.maps.InfoWindow({
   });
 
 google.maps.event.addListener (marker, 'click', function() {
-    infoWindow.open(myMap, marker);
+    infoWindow.open(map, marker);
   });
 
 var flightPlanCoordinates = [
@@ -31,7 +31,7 @@ var flightPath = new google.maps.Polyline({
   });
 
   flightPath.setMap(map);
-  
+
 }
 
 window.initMap = initMap;
