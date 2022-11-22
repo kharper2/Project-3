@@ -13,10 +13,6 @@ var infowindow = new google.maps.InfoWindow({
     content:"This is they city from which my family is from!"
   });
 
-google.maps.event.addListener (marker, 'click', function() {
-    infoWindow.open(map, marker);
-  });
-
 var flightPlanCoordinates = [
     { lat: 41.978611, lng: -87.904724 },
     { lat: 52.1595, lng: 20.9670 },
