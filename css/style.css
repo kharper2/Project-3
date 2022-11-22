@@ -1,0 +1,137 @@
+#main-navbar{
+  background-color: black;
+}
+
+#navbar-container{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#main-navbar{
+  overflow: hidden;
+}
+#main-navbar ul{
+  list-style-type: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+#main-navbar ul li{
+  float: left;
+}
+
+#main-navbar ul li a{
+  display: block;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover{
+  background-color: white;
+  color: black;
+}
+#main-navbar #onpage{
+  text-decoration: underline;
+}
+
+body{
+  background-color: #cfe8ff;
+}
+
+h1,h2,h4{
+  font-family: "Trirong", serif;
+  color: black;
+  margin: 5px;
+}
+
+p,li{
+  font-family: Courier, monospace;
+  margin: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+#music{
+  width: 1200px;
+}
+
+#denial{
+  height: 240px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+}
+
+#anger{
+  height: 60px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+}
+
+#bargaining{
+  height: 80px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+}
+
+#depression{
+  height: 80px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+}
+
+#acceptance{
+  height: 100px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+}
+
+.violin_img{
+  float: left;
+  padding-left: 30px;
+}
+
+.video{
+  padding-right: 30px;
+  float: right;
+}
+.s{
+  margin: 10px auto;
+  padding: 20px 50px;
+}
+
+#head{
+  text-align: center;
+}
+
+#disclaimers h4{
+  color: red;
+}
+
+.t, #disclaimers{
+  float: left;
+  width: 80%;
+  margin: 5%;
+}
+
+.turk_img img{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
