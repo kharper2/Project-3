@@ -115,8 +115,73 @@ h1{
   padding: 20px 50px;
 }
 
-#head{
+#head, .rimg{
   text-align: center;
+}
+
+/* MOBILE PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .rbody{
+    background-color: white;
+    float: right;
+    width: 70%;
+  }
+
+  .rbody h1,h2,h4, p,li{
+    color: black;
+  }
+
+  .rbody #main-navbar{
+    left: 0%;
+    position: fixed;
+    background-color: #cfe8ff;
+    height: 100%;
+    width: 25%;
+  }
+
+  .rbody #main-navbar ul{
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .rbody #main-navbar ul li a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .rbody #main-navbar ul li a:hover{
+    background-color: black;
+    color: #cfe8ff;
+  }
+
+
+}
+
+/* MOBILE LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .rbody{
+    background-color: black;
+  }
+
+  .rbody h1,h2,h4, p,li{
+    color: white;
+  }
+
+  .rbody #main-navbar{
+    background-color: white;
+  }
+
+  .rbody #main-navbar ul li a{
+    color: black;
+  }
+
+  .rbody #main-navbar ul li a:hover{
+    background-color: black;
+    color: white;
+  }
 }
 
 #disclaimers h4{
